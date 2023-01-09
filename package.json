@@ -1,0 +1,28 @@
+{
+  "name": "1_order_simpleparcerdata",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "cherio": "^1.0.0-rc.2",
+    "excel4node": "^1.8.0",
+    "node-fetch": "^3.3.0",
+    "nodejs-file-downloader": "^4.10.6",
+    "puppeteer": "^19.4.1",
+    "xml-writer": "^1.7.0"
+  }
+}
